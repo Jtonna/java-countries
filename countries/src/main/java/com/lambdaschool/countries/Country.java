@@ -44,4 +44,14 @@ public class Country {
     public void setMedianAge(int medianAge) {
         this.medianAge = medianAge;
     }
+
+    @Override
+    public String toString() {
+        return "Country{" +
+                "countryName='" + countryName + '\'' +
+                ", population=" + population +
+                ", landMassSize=" + landMassSize +
+                ", medianAge=" + medianAge +
+                '}';
+    }
 }
